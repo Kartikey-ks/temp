@@ -1,0 +1,49 @@
+* {
+    color: #d9dadb;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #0c141b;
+}
+
+.black-bar {
+    background-color: #171d25;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_steam {
+    width: 176px;
+    height: 44px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    background-color: #171d25;
+}
+
+.dbtn{
+    border: none;
+    background-color: #171d25;
+    font-weight: 700;
+    
+}
+
+.bg-vid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
